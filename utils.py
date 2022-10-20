@@ -96,8 +96,6 @@ def sell_all_usd():
     return my_new_uan
 
 
-def next_course() -> float:
-    return course_change()
 
 
 def restart_game():
