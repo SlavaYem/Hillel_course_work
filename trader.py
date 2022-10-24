@@ -20,7 +20,7 @@ if __name__ == "__main__":
         if test_1['pr_2'] == "ALL":
             sell_all_usd()
         else:
-            sell_usd(int(test_1['param_2']))
+            sell_usd(int(test_1['pr_2']))
     elif test_1['param_1'] == "NEXT":
         course_change()
     elif test_1['param_1'] == "RESTART":
